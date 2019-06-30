@@ -2,34 +2,34 @@ $(document).ready(function() {
 
     //Array of Characters
     let characters = {
-        '': {
-            name: '',
-            health: 120,
-            attack: 8,
-            imageUrl: "",
-            enemyAttackBack: 15
-        }, 
-        '': {
-            name: '',
-            health: 100,
-            attack: 14,
-            imageUrl: "",
-            enemyAttackBack: 5
-        }, 
-        '': {
-            name: '',
-            health: 150,
-            attack: 8,
-            imageUrl: "",
-            enemyAttackBack: 20
-        }, 
-        '': {
-            name: '',
-            health: 180,
-            attack: 7,
-            imageUrl: "",
-            enemyAttackBack: 20
-        }
+      'Spiderman': {
+        name: 'Spiderman',
+        health: 120,
+        attack: 8,
+        imageUrl: "",
+        enemyAttackBack: 15
+      }, 
+      'Iron man': {
+        name: 'Iron Man',
+        health: 100,
+        attack: 14,
+        imageUrl: "",
+        enemyAttackBack: 5
+      }, 
+      'Captian America': {
+        name: 'Captian America',
+        health: 150,
+        attack: 8,
+        imageUrl: "",
+        enemyAttackBack: 20
+      }, 
+      'Black Panther': {
+        name: 'Black Panther',
+        health: 180,
+        attack: 7,
+        imageUrl: "",
+        enemyAttackBack: 20
+      }
     };
     
     var currSelectedCharacter;
