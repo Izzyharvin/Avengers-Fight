@@ -1,5 +1,5 @@
 body {
-    background-color: #C2C3C7;
+    background-color: rgba(0, 0, 128, 0.658);
     font-family: 'IM Fell English SC', serif;
   }
   header {
@@ -26,9 +26,7 @@ body {
     font-size: 150%;
   }
   
-  /*---------------------*/
   /* Character rendering */
-  /*---------------------*/
   .character {
     width: 153px;
     margin: 0px 40px 0px 40px;
@@ -53,9 +51,8 @@ body {
     text-align: center;
   }
   
-  /*---------------------*/
-  /*      Fighting       */
-  /*---------------------*/
+  /* Fighting */
+
   .attack {
     text-align: center;
   }
@@ -66,8 +63,8 @@ body {
       visibility: hidden;
   }
   .btn {
-      background: #000;
-      color: #DBD2C6;	
+      background: white;
+      color: black);	
   }
   .enemy {
       width: 153px;
@@ -88,9 +85,7 @@ body {
     color: white;
   }
   
-  /*---------------------*/
-  /* Available Oponents  */
-  /*---------------------*/
+  /* Available Oponents */
   #available-to-attack-section {
     float: right;
   }
@@ -98,9 +93,7 @@ body {
       height: 100px;
   }
   
-  /*---------------------*/
-  /*      Defender       */
-  /*---------------------*/
+  /* Defender */
   
   /*#defender {
     width: 190px;
@@ -116,10 +109,9 @@ body {
   #defender-health {
     text-align: center;
   }
-  
-  /*---------------------*/
+
   /*   Media Queries     */
-  /*---------------------*/
+  
   @media only screen and (max-device-width: 768px) {
     .character {
       display: block;
