@@ -138,7 +138,7 @@ $(document).ready(function() {
 
     //Defeated Enemy
     if (areaRender == 'enemyDefeated') {
-      $('#defender').empty();
+      // $('#defender').empty();
       var gameStateMessage = "You have defated " + charObj.name + ", fight next enemy.";
       renderMessage(gameStateMessage);
     }
